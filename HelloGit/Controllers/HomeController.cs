@@ -18,6 +18,11 @@ namespace HelloGit.Controllers
             Response.Write("<h1>Foobar</h1>");
         }
 
+        public void Stuff()
+        {
+            Response.Write("Hello from shea");
+        }
+
         public void ActionMethod()
         {
             Response.Write("<h2>Hello stuff</h2>");
